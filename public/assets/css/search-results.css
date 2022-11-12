@@ -1,0 +1,33 @@
+aside.searchbox h1 {
+	text-align:center;
+}
+
+aside form select, 
+aside form input{
+	margin:7px 0;
+}
+
+	aside form input[type='submit'] {
+		width:100%;
+		margin:7px 0;
+		text-transform:uppercase;
+		padding: 3px;
+	}
+	aside form select option {
+		text-align:center;
+	}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+

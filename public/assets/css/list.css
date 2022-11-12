@@ -1,0 +1,116 @@
+aside, section{
+	display:inline-block;	
+	vertical-align:top;
+}
+
+aside.left-section {
+	width:25%;
+	background-color: white;
+	box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 6px;	
+	padding:2%;
+}
+	aside.left-section h1 {
+		color:#f45111;
+	}
+
+section.main-section {
+	width: calc(75% - 4px);
+	padding:0 2%;
+}
+
+article.list-element {
+	margin:20px 0;
+	display: grid;
+	grid-template-columns: 100px auto;
+	grid-gap: 15px;	
+}
+	article.list-element h1 {
+    color: #000;
+    font-size: 25px;
+    line-height: 25px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+	}
+	article.list-element h2 {
+		color: #666;
+		font-size: 20px;
+		line-height: 20px;
+		text-transform: uppercase;
+		letter-spacing: -2px;
+		margin: 0;
+		padding: 0;
+	}	
+
+
+article img {
+	display: block;
+	width: 100px;
+	height: 100px;
+}
+
+article .small-description {		
+	border-left:2px solid #f45111;
+	padding-left: 8px;	
+}
+
+button.action{
+	float:right;
+	margin:5px;
+}
+
+.price, .room-info {
+	text-align:center;
+	padding:10px 0; 
+	border-radius: 2px;
+}
+
+.price {
+	background-color: #44b044;
+}
+
+.room-info {
+	display:grid;
+	grid-template-columns:auto auto;
+	background-color: #ecececab;
+}
+
+.room-info > div {
+	border-right: 1px solid lightgray;
+}
+.room-info div:last-child {
+	border-right: none;
+
+}
+
+@media (max-width: 804px) {
+    .main {
+        width: 100%;
+    }
+    aside.left-section,
+    section.main-section {
+        width: 90%;
+        margin:5% auto;
+        display: block;
+    }
+        article.hotel h1 {
+            font-size: 22px;
+            line-height: 22px;
+        }
+        article.hotel h2 {
+            font-size: 18px;
+            line-height: 18px;
+        }
+    aside.form {
+        width: 80%;
+    }
+        aside.form input,
+        aside.form select {
+            width: 100%;
+        }
+			aside.form input [type='submit'] {
+				padding:5px;
+			}
+}
+

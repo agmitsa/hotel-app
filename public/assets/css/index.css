@@ -1,0 +1,74 @@
+form {
+  background-color: #fffffff5;
+  padding: 10px;
+  border-radius: 3px;
+  width: 33.3%;
+  margin: 13% auto;
+  text-align:center;
+}
+
+form > .form-group {
+	display: inline-block;
+	width:45%;
+}
+
+
+select, input{
+	margin: 8px 0px;
+}
+
+
+body {
+	background-image: url('../images/santorini.jpg');
+	background-size: cover;
+	
+}
+
+	body header {
+		background-color:#ccc; 
+	}
+	
+ul li a {
+	color: black;
+	border-right: none;
+}
+
+ul > li:last-child a { 
+    display: none; 
+}
+
+footer.index-footer {
+	background: #ccc;
+	border-top: 3px solid #808080;
+	bottom: 0;
+	width: 100%;	
+	position: fixed;
+}
+@media (max-width: 804px){
+	body {
+		background-size: cover no-repeat;
+
+	}
+	form {
+		width: 80%;
+	} 
+	form > .form-group {
+		width:100%;
+	}	
+	
+	form > .action input[type='submit'] {
+		width: 100%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+

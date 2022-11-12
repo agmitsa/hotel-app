@@ -1,0 +1,145 @@
+section {
+	margin-bottom: 10px;
+}
+	section h3 {		
+		margin:0 0 15px 0;
+	}
+	section p {
+		margin:0;
+	}
+	section.image-container {
+		width:80%;
+		margin: 0px auto 10px auto;
+	}
+	section.description p {
+		display:inline-block;
+	}
+button.booking-status {
+	padding:8px 16px;
+	float: right;
+	margin: 16px;
+}
+	button.booking-status#booked:disabled{
+		background-image: linear-gradient(#bf0000, #e10303);
+		cursor: default;
+	}
+
+	button.booking-status#available{
+		background-image: linear-gradient(#128208, #2fa716);
+	}
+
+
+.page-title div{
+	display: inline-block;
+	color: white;
+	padding-right: 5px;
+}
+	.page-title div.text-right{
+		float: right;
+	}
+	.page-title div.text-left div {
+		border-right:1px solid white;
+	}	
+		.page-title div.text-left div:last-child {
+		border-right:none;
+	}
+	
+.page-title.room-properties {	
+	padding: 5px;
+	display: grid;
+	grid-template-columns:auto auto auto auto auto;
+	width: 100%;
+}
+
+.room-properties div {
+	padding: 5px;
+	color: white;
+	text-align: center;	
+	border-right:1px solid white;
+}
+
+.room-properties div:last-child {
+	border-right: none;
+}
+
+.room-description {
+	border-left: 1px solid #f45111;
+	padding-left: 10px;
+}
+
+.room-description h2 {
+	margin-top: 0px;
+}
+.room-description p {
+	max-width: 800px;
+}
+
+.reviews, .add-review {
+	border-left: 1px solid #f45111;	
+	padding-left:10px;
+}
+
+
+.comment, .add-time {
+	color:#919090;
+	font-size:14px;
+}
+	.comment p {
+		margin-bottom: 15px;
+
+	}
+
+.add-review textarea {
+	width: 100%;
+	margin-bottom:10px;
+}
+	.add-review textarea:focus {
+		outline:none;
+	}
+
+.action {
+	text-align:center;
+}
+	.action input[type='button'] {
+		padding: 10px;
+	}
+	
+.stars, .form-star {
+  overflow: hidden;
+  display: inline-block;
+}
+	.stars .form-star i, .stars .form-star.reset i{
+		color:#9191917d;		
+	}
+
+	.stars .form-star.active i,
+	.stars .form-star.secondary-active i{
+		color: #ff9b00;
+	} 
+
+input[type=radio]{
+	display:none !important;
+}
+
+button.favorite-btn {
+	background: transparent;
+    padding: 0px;
+	font-size:18px;
+}
+	button.favorite-btn:hover {
+		background:none;
+	}
+	
+@media (max-width: 804px){
+
+	section.description p
+	,section.room-properties p {
+		display:none;
+	}
+	section.image-container {
+		width:100%;
+	}	
+	div.text-right {
+		display:block;
+	}
+}

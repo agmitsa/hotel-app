@@ -1,0 +1,17 @@
+
+.room-info.booking {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	width: 753.467;
+}
+
+aside.profile ol {
+    padding-left: 23px;
+	margin:0;
+}
+	aside.profile ol li {
+		margin-bottom:14px;
+	}
+		aside.profile ol li p {
+			margin:0;
+		}

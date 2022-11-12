@@ -328,7 +328,7 @@ $allReviews = $review->getReviewsByRoom($roomId);
 			}
 		</script>
 		<script defer
-		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD3jDrtqtOwwszrawa5WWIOlKtZ4UwpSk4&callback=initMap">
+		src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap">
 		</script>		
 	</body>
 </html>
